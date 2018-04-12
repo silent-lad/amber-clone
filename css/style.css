@@ -171,12 +171,12 @@ height: 65%;
 }
 
 
-/*.left-head {
+.left-head {
 	float: left;
 	overflow: auto;
 	color: white;
 }
-*/
+
 .right-head {
 	float: right;
 }
@@ -243,4 +243,16 @@ footer .contact i {
 .sub-header {
 	background-color: rgb(65,70,76);
 	padding: 10px;
+}
+@media screen and (max-width: 268px;)
+{
+	footer {
+		padding: 0 !important;
+	}
+	footer .contact {
+		padding: 0 !important;
+	}
+	.re {
+		padding: 0 !important;
+	}
 }
