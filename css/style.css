@@ -187,6 +187,15 @@ height: 65%;
   max-width: 280px;
 	max-height: 280px;
 }
+@media screen and (max-width:400px){
+	.main-logo {
+		max-width: 230px;
+	max-height: 230px;
+	}
+	.right-head {
+		float: left;
+	}
+}
 
 /*===========================
   Footer
@@ -244,7 +253,7 @@ footer .contact i {
 	background-color: rgb(65,70,76);
 	padding: 10px;
 }
-@media screen and (max-width: 268px;)
+/*@media screen and (max-width: 268px;)
 {
 	footer {
 		padding: 0 !important;
@@ -255,4 +264,4 @@ footer .contact i {
 	.re {
 		padding: 0 !important;
 	}
-}
+}*/
