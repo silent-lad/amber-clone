@@ -49,7 +49,7 @@ p {
 
 .menu {
 	font-size:15px;
-	margin-left: 14%;
+	margin-left: 5%;
 	text-transform:uppercase;
 	font-weight:600;
 }
@@ -146,30 +146,29 @@ PIC
 .logo-box{
     margin-left:10rem;
 }
-.anchoring{
-    margin-top: 2rem;
-    font-size: 1.2rem;
+
+/* Youtube Videos */
+.v1 {
+	width: 65%;
+	height: 20px;
 }
-.anchoring:hover{
-    color: #A40A3C!important;
-}
-.nav-link:hover{
-    background-color: #A40A3C!important;
-}
-.dropdown-menu{
-    background-color: #A40A3C!important;
-    color:#fff!important;
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+margin-left: 15%;
 }
 
-.dropdown-item{
-    color:#fff!important;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 65%;
 }
-
-.dropdown-item:hover{
-    background-color:#A40A3C!important; 
-    color:lightgray!important;
-}
-
 
 
 /*===========================
