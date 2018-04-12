@@ -102,6 +102,74 @@ PIC
   left: 0;
 }
 
+/* Header */
+.header{
+    margin-top: -2rem;
+    padding:5rem;
+    padding-top: 7rem;
+    background-image: url(https://cdn-web.brompton.com/~/media/Images/Core-Site-Content/Factory-Shots/Brompton-Factory003.jpg);
+}
+
+.primary-heading{
+    margin-top: 4rem;
+    font-size: 3rem;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.primary-main{
+    text-align: center;
+    color: #fff;
+    background-color:#A40A3C;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.primary-sub{
+    text-align: center;
+    color: #fff;
+    background-color:yellow;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.heading-right{
+    margin-top: -2.3rem;
+}
+
+.heading-left{
+    margin-top:3rem;
+}
+
+.logo-box{
+    margin-left:10rem;
+}
+.anchoring{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.anchoring:hover{
+    color: #A40A3C!important;
+}
+.nav-link:hover{
+    background-color: #A40A3C!important;
+}
+.dropdown-menu{
+    background-color: #A40A3C!important;
+    color:#fff!important;
+}
+
+.dropdown-item{
+    color:#fff!important;
+}
+
+.dropdown-item:hover{
+    background-color:#A40A3C!important; 
+    color:lightgray!important;
+}
+
 
 
 /*===========================
